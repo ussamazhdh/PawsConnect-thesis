@@ -1,5 +1,4 @@
-Below is a **clean, professional, GitHub-ready README** rewritten from scratch, keeping your project intent but making it **clearer, more academic-friendly, and recruiter-safe**.
-You can **replace your current README.md entirely** with this.
+
 
 ---
 
