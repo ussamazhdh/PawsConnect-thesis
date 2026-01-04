@@ -1,0 +1,24 @@
+<svg width="280" height="56" viewBox="0 0 280 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean Paw Print Icon -->
+  <g transform="translate(0, 8)">
+    <!-- Main central pad (large oval) -->
+    <ellipse cx="16" cy="24" rx="10" ry="8" fill="#FFFFFF"/>
+    
+    <!-- Top left toe -->
+    <ellipse cx="6" cy="8" rx="5" ry="5" fill="#FFFFFF"/>
+    
+    <!-- Top right toe -->
+    <ellipse cx="26" cy="8" rx="5" ry="5" fill="#FFFFFF"/>
+    
+    <!-- Bottom left toe -->
+    <ellipse cx="3" cy="20" rx="4.5" ry="4.5" fill="#FFFFFF"/>
+    
+    <!-- Bottom right toe -->
+    <ellipse cx="29" cy="20" rx="4.5" ry="4.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Text: PawConnect -->
+  <text x="42" y="38" fill="#FFFFFF" font-size="28" font-weight="600" font-family="'Poppins', 'Nunito', 'Inter', system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif" letter-spacing="-0.3px">
+    Paw<tspan fill="#FF7A36" font-weight="600">Connect</tspan>
+  </text>
+</svg>

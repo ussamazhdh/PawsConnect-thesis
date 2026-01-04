@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Home with Paw -->
+  <path d="M10 20V14H14V20H19V12H22L12 3L2 12H5V20H10Z" fill="#451E0E"/>
+  <!-- Small paw inside house -->
+  <circle cx="12" cy="16" r="1.5" fill="#451E0E"/>
+  <circle cx="9.5" cy="18" r="1" fill="#451E0E"/>
+  <circle cx="14.5" cy="18" r="1" fill="#451E0E"/>
+  <ellipse cx="12" cy="19.5" rx="2" ry="1.5" fill="#451E0E"/>
+</svg>

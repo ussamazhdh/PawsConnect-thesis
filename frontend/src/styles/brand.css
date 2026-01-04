@@ -1,0 +1,95 @@
+/**
+ * PawConnect Brand Colors & Variables
+ * Modern, warm, friendly color palette for animal welfare platform
+ */
+
+:root {
+  /* Primary Colors - Warm, Trustworthy Green */
+  --paw-primary: #1B4D3E;        /* Deep forest green - primary actions, main brand */
+  --paw-primary-light: #2D6B5A;   /* Lighter green for hover states */
+  --paw-primary-dark: #14382E;    /* Darker green for pressed states */
+  --paw-primary-bg: #E8F5ED;      /* Very light green background */
+  
+  /* Secondary Colors - Warm Orange Accent */
+  --paw-accent: #FF7A36;          /* Warm orange - highlights, CTAs, connections */
+  --paw-accent-light: #FF9A5C;    /* Lighter orange for hover */
+  --paw-accent-dark: #E55F1F;     /* Darker orange for pressed */
+  --paw-accent-bg: #FFF4F0;       /* Very light orange background */
+  
+  /* Neutral Colors - Professional Grays */
+  --paw-gray-900: #1A1A1A;        /* Darkest - headings, important text */
+  --paw-gray-800: #2D2D2D;        /* Dark - body text */
+  --paw-gray-700: #4A4A4A;        /* Medium dark - secondary text */
+  --paw-gray-600: #6B6B6B;        /* Medium - muted text */
+  --paw-gray-500: #8E8E8E;        /* Light medium - placeholders */
+  --paw-gray-400: #B0B0B0;        /* Light - borders, dividers */
+  --paw-gray-300: #D1D1D1;        /* Very light - subtle borders */
+  --paw-gray-200: #E8E8E8;        /* Lighter - input backgrounds */
+  --paw-gray-100: #F5F5F5;        /* Lightest - card backgrounds */
+  --paw-gray-50: #FAFAFA;         /* Almost white - page backgrounds */
+  
+  /* Semantic Colors */
+  --paw-success: #2CDF53;         /* Green - success messages, positive actions */
+  --paw-success-light: #E8F8ED;   /* Light green background */
+  --paw-error: #E63946;            /* Red - errors, warnings */
+  --paw-error-light: #FEE8E9;     /* Light red background */
+  --paw-warning: #FFB84D;         /* Amber - warnings */
+  --paw-warning-light: #FFF8E8;   /* Light amber background */
+  --paw-info: #4A90E2;             /* Blue - informational messages */
+  --paw-info-light: #E8F2FC;      /* Light blue background */
+  
+  /* Background Colors */
+  --paw-bg-primary: #FFFFFF;        /* White - main background */
+  --paw-bg-secondary: #FAFAFA;    /* Off-white - secondary backgrounds */
+  --paw-bg-dark: #14382E;         /* Dark green - dark sections */
+  --paw-bg-gradient: linear-gradient(135deg, #1B4D3E 0%, #FF7A36 100%);
+  
+  /* Text Colors */
+  --paw-text-primary: #1A1A1A;     /* Main text */
+  --paw-text-secondary: #4A4A4A;  /* Secondary text */
+  --paw-text-muted: #6B6B6B;      /* Muted text */
+  --paw-text-light: #FFFFFF;       /* Light text on dark backgrounds */
+  
+  /* Border & Shadow */
+  --paw-border: #E8E8E8;           /* Default border */
+  --paw-border-light: #F5F5F5;     /* Light border */
+  --paw-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --paw-shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --paw-shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --paw-shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+  
+  /* Spacing (if not using Tailwind) */
+  --paw-spacing-xs: 4px;
+  --paw-spacing-sm: 8px;
+  --paw-spacing-md: 16px;
+  --paw-spacing-lg: 24px;
+  --paw-spacing-xl: 32px;
+  --paw-spacing-2xl: 48px;
+  
+  /* Border Radius */
+  --paw-radius-sm: 6px;
+  --paw-radius-md: 8px;
+  --paw-radius-lg: 12px;
+  --paw-radius-xl: 16px;
+  --paw-radius-full: 9999px;
+  
+  /* Typography */
+  --paw-font-family: 'Inter', 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  --paw-font-weight-normal: 400;
+  --paw-font-weight-medium: 500;
+  --paw-font-weight-semibold: 600;
+  --paw-font-weight-bold: 700;
+  --paw-font-weight-extrabold: 800;
+}
+
+/* Dark mode support (optional) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paw-bg-primary: #1A1A1A;
+    --paw-bg-secondary: #2D2D2D;
+    --paw-text-primary: #FFFFFF;
+    --paw-text-secondary: #B0B0B0;
+    --paw-border: #4A4A4A;
+  }
+}
+

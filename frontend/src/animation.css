@@ -1,0 +1,41 @@
+.bottomup {
+  animation: bottom-up-animation 1s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    forwards;
+}
+@keyframes bottom-up-animation {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@media screen and (min-width: 768px) {
+  .outlined {
+    -webkit-text-stroke-width: 2px;
+  }
+}
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+.linear-background {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background-size: 1000px 104px;
+  height: 338px;
+  position: relative;
+  overflow: hidden;
+}

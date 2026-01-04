@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hand holding heart/paw -->
+  <path d="M12 21C12 21 4 16 4 10C4 7 6 5 8.5 5C9.5 5 10.5 5.5 11 6.5C11.5 5.5 12.5 5 13.5 5C16 5 18 7 18 10C18 16 12 21 12 21Z" fill="#FFFFFF"/>
+  <!-- Paw print on heart -->
+  <circle cx="12" cy="12" r="1" fill="#451E0E"/>
+  <circle cx="10.5" cy="10.5" r="0.7" fill="#451E0E"/>
+  <circle cx="13.5" cy="10.5" r="0.7" fill="#451E0E"/>
+  <ellipse cx="12" cy="13.5" rx="1.2" ry="0.8" fill="#451E0E"/>
+</svg>
